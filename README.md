@@ -61,7 +61,7 @@ df['LossRatio'].replace([np.inf, -np.inf, np.nan], 0, inplace=True)
 # Visualization code
 sns.barplot(data=df, x='Province', y='LossRatio', estimator='mean')
 plt.xticks(rotation=45)
-![alt text](image-1.png)
+acis_insurance/venv/notebooks/monthly_claims_trend.png
 ## Key Features
 - Monthly claim trend visualization
 - Provincial claim comparison
