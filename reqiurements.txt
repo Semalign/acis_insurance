@@ -1,0 +1,31 @@
+# Core packages
+pandas
+numpy
+matplotlib
+seaborn
+
+# Jupyter (optional, for notebook-based work)
+jupyterlab
+
+# Statistical analysis
+scipy
+statsmodels
+
+# Machine Learning (optional, for later tasks)
+scikit-learn
+
+# Data Version Control
+dvc
+
+# Optional: If using remote storage like S3, add the appropriate backend
+# Uncomment if using AWS S3
+# dvc[s3]
+
+# Uncomment if using Google Drive or GCP
+# dvc[gdrive]
+
+# Uncomment if using Azure
+# dvc[azure]
+
+# Optional: Logging and reporting
+rich
